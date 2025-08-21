@@ -15,6 +15,7 @@ import IeltsPractice from './components/Pages/IeltsPractice/IeltsPractice';
 import IeltsTestCenter from './components/Pages/IeltsTestCenter/IeltsTestCenter';
 import IeltsListeningExercise from './components/Pages/ListeningTest/IeltsListeningExercise';
 import IeltsSpeaking from './components/Pages/IeltsSpeaking/IeltsSpeaking';
+import IeltsTypes from './components/Pages/IeltsTypes/IeltsTypes';
 
 
 
@@ -57,6 +58,11 @@ const router = createBrowserRouter([
       {
         path: '/ielts-speaking',
         element:<IeltsSpeaking></IeltsSpeaking>
+        
+      },
+      {
+        path: '/ielts-types',
+        element:<IeltsTypes></IeltsTypes>
         
       },
      
