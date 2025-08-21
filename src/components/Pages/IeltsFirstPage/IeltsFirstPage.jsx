@@ -1,5 +1,12 @@
 import React from 'react';
 import IeltsExamDate from './IeltsExamDate';
+import FeatureThree from './FatureThree';
+import FeatureFour from './FeatureFour';
+import FeatureTwo from './FeatureTwo';
+import FeatureFive from './FeatureFive';
+import FeatureSeven from './FeatreSeven';
+import FeatureSix from './FeatureSix';
+import FAQ from './FAQ';
 
 const IeltsFirstPage = () => {
    
@@ -100,6 +107,13 @@ const IeltsFirstPage = () => {
       </div>
     </div>
     <IeltsExamDate></IeltsExamDate>
+    <FeatureTwo></FeatureTwo>
+    <FeatureThree></FeatureThree>
+    <FeatureFour></FeatureFour>
+    <FeatureFive></FeatureFive>
+    <FeatureSix></FeatureSix>
+    <FeatureSeven></FeatureSeven>
+    <FAQ></FAQ>
     </div>
   );
 };
